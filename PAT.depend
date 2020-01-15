@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1571232782 source:c:\workspace\pat\basic\b1002.cpp
+	<iostream>
+	<cstring>
+	<cstdio>
+
+1579052393 source:c:\workspace\pat\basic\b1003.cpp
+	<iostream>
+	<cstring>
+	<cstdio>
+
+1579065006 source:c:\workspace\pat\basic\b1004.cpp
+	<iostream>
+	<cstring>
+	<cstdio>
+	<cstdlib>
+
+1579091514 source:c:\workspace\pat\basic\b1005.cpp
+	<iostream>
+	<cstring>
+	<cstdio>
+	<cstdlib>
+	<map>
+
