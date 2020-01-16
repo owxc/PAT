@@ -2,8 +2,8 @@ advance/
 bin/
 note/
 obj/
-*.layout
+
+
 *.cbp
 *.depend
-
-
+*.layout
