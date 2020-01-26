@@ -13,14 +13,14 @@ int main(int argc, char const *argv[])
     string s;
     getline(cin, s);
 
-    /**×Ö·û´®·Ö¸î**/
+    /**å­—ç¬¦ä¸²åˆ†å‰²**/
     string token = " ";
-    string strs = s + token;  //ÁÙÊ±´®£ºÔÚ×Ö·û´®Ä©Î²Ò²¼ÓÈë·Ö¸ô·û£¬·½±ã½ØÈ¡×îºóÒ»¶Î
+    string strs = s + token;  //ä¸´æ—¶ä¸²ï¼šåœ¨å­—ç¬¦ä¸²æœ«å°¾ä¹ŸåŠ å…¥åˆ†éš”ç¬¦ï¼Œæ–¹ä¾¿æˆªå–æœ€åä¸€æ®µ
     size_t pos = strs.find(token);
     while(pos!=-1) {
       v.push_back(strs.substr(0, pos));
-      strs = strs.substr(pos+1, strs.size()); // ÁÙÊ±´®¸üĞÂ
-      pos = strs.find(token);               // ÓÎ±ê²½½ø
+      strs = strs.substr(pos+1, strs.size()); // ä¸´æ—¶ä¸²æ›´æ–°
+      pos = strs.find(token);               // æ¸¸æ ‡æ­¥è¿›
     }
 //    for(vector<string>::iterator iter=v.begin(); iter!=v.end(); ++iter) {
 //      printf("%s ", (*iter).c_str());
